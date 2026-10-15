@@ -38,7 +38,9 @@ This demonstrated an important cybersecurity principle: modern OS-level permissi
 
 Screenshots
 Stage	Preview
-Initial GUI	https://images/gui-start.png
-Confirmation dialog	https://images/confirmation-dialog.png
-Final warning	https://images/final-warning.png
-Filesystem after execution	https://images/filesystem-after.png
+Initial GUI	![1](1.png)
+
+Confirmation dialog	![1](2.png)
+
+After warning ![1](3.png)
+
