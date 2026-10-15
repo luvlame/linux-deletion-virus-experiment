@@ -19,3 +19,26 @@ The program was built in Python with Tkinter, executed on a Linux VM, and docume
 - On click: shows a confirmation dialog, executes `rm -rf ~/`, then shows a final warning
 
 **It is not a real virus. It is a proof-of-concept built for a coursework milestone.**
+
+
+
+Hypothesis: The command would wipe the entire system.
+
+Outcome: ❌ Failed — Linux protected itself.
+
+User files in ~/ were affected
+
+System folders (/bin, /etc, /lib, /boot, etc.) remained intact
+
+Linux's permission model prevented a standard user from damaging the OS
+
+This demonstrated an important cybersecurity principle: modern OS-level permissions are a critical line of defense against destructive scripts.
+
+
+
+Screenshots
+Stage	Preview
+Initial GUI	https://images/gui-start.png
+Confirmation dialog	https://images/confirmation-dialog.png
+Final warning	https://images/final-warning.png
+Filesystem after execution	https://images/filesystem-after.png
