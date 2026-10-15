@@ -42,5 +42,5 @@ Initial GUI	![1](1.png)
 
 Confirmation dialog	![1](2.png)
 
-After warning ![1](3.png)
+After warning ![1](3.jpg)
 
